@@ -1,0 +1,50 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+*.env
+
+# Model files and large data
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.pkl
+*.npy
+*.npz
+dataset/
+data/
+model/
+models/
+
+# Logs
+*.log
+logs/
+log.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/project files
+.vscode/
+.idea/
+*.swp
+
+# Build/Distribution files
+build/
+dist/
+*.egg-info/
+
+# Cache and temp files
+.cache/
+tmp/
+temp/
