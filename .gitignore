@@ -13,7 +13,7 @@ env/
 *.env
 
 # Model files and large data
-*.h5
+# *.h5
 *.hdf5
 *.ckpt
 *.pb
