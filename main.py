@@ -19,7 +19,7 @@ app = FastAPI()
 # -------------------- CORS Setup --------------------
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # replace later with your frontend deployed URL
+    allow_origins=["https://diabetic-retinopathy-prediction-fro.vercel.app"],  # replace later with your frontend deployed URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
